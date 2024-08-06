@@ -1,0 +1,41 @@
+.sidebar {
+    width: 60px;
+    background-color: #2b2b40;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 1;
+  }
+  @media screen and (max-width: 600px) {
+    .sidebar{
+      display: none;
+    }
+  }
+
+  .barsicon{
+    margin-bottom: 50px;
+    height:30px;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .menu-list{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    height: 75%; 
+  }
+
+  .exit {
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .menu-item{
+    display: flex;
+    flex-grow: 0.3;
+    flex-direction: column;
+    justify-content: space-between;
+  }

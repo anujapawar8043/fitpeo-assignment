@@ -1,0 +1,55 @@
+.card {
+    background-color: #2b2b40;
+    padding: 20px;
+    border-radius: 10px;
+    img{
+      border-radius: 10px;
+      width:50px;
+      height:50px;
+    }
+  }
+  
+  .card-title {
+    margin-bottom: 10px;
+  }
+
+  .card-value-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    .percent-value{
+      margin-top: 5px;
+    }
+  }
+  
+  .card-value {
+    font-size: 1.5em;
+    font-weight: bolder;
+  }
+
+  @media screen and (max-width: 600px) {
+    .card {
+      padding: 15px;
+      border-radius: 8px;  
+      img{
+        border-radius: 8px;
+        width:30px;
+        height:30px;
+      }
+    }
+  .card-title {
+    margin-bottom: 4px;
+  }
+   
+  .card-value {
+    font-size: 1.2em;
+  }
+  .card-value-container .percent-value{
+    margin-top: 2px;
+    font-size: 14px;
+  }
+  
+}
+  
